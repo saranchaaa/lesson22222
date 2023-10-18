@@ -1,17 +1,14 @@
 import random as r
 import time as t
 
-iss = False
 class Car:
     def __init__(self, name, max_speed):
         self.name = name
         self.max_speed = max_speed
     def turnon(self):
         print("Engine is turned on!")
-        iss = True
     def turnoff(self):
         print("Engine is turned off!")
-        iss = False
     def print_info(self):
         print(f"Car name = {car.name}. "
               f"Car max speed = {car.max_speed}km/per hour.")
