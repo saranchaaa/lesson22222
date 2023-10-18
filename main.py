@@ -10,8 +10,8 @@ class Car:
     def turnoff(self):
         print("Engine is turned off!")
     def print_info(self):
-        print(f"Car name = {car.name}. "
-              f"Car max speed = {car.max_speed}km/per hour.")
+        print(f"Car name = {self.name}. "
+              f"Car max speed = {self.max_speed}km/per hour.")
 
 namee = input("What's your car name? - ")
 opnamee = r.choice("Mercedes BMW Volkswagen Lada Ferrari Lamborghini Ford Mustang Mitsubishi Honda Peugeot".split())
